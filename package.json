@@ -1,7 +1,7 @@
 {
 	"name": "clock",
-	"version": "0.0.0",
-	"description": "Indicate, keep and co-ordinate time events",
+	"version": "0.1.0",
+	"description": "Indicate and co-ordinate time events",
 	"keywords": ["time", "watch", "event", "events", "clock", "async", "asynchronous"],
 	"author": "Mariusz Nowak <medikoo+clock@medikoo.com> (http://www.medikoo.com/)",
 	"main": "lib/index",
@@ -12,5 +12,9 @@
 	"bugs": {
 		"mail": "medikoo+clock@medikoo.com",
 		"web": "https://github.com/medikoo/clock/issues"
+	},
+	"dependencies": {
+		"es5-ext": "0.6.x",
+		"event-emitter": "0.1.x"
 	}
 }
