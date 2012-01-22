@@ -1,9 +1,11 @@
 {
 	"name": "clock",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Indicate and co-ordinate time events",
-	"keywords": ["time", "watch", "event", "events", "clock", "async", "asynchronous"],
-	"author": "Mariusz Nowak <medikoo+clock@medikoo.com> (http://www.medikoo.com/)",
+	"keywords": ["time", "watch", "event", "events", "clock", "async",
+		"asynchronous"],
+	"author":
+	"Mariusz Nowak <medikoo+clock@medikoo.com> (http://www.medikoo.com/)",
 	"main": "lib/index",
 	"repository": {
 		"type": "git",
@@ -14,10 +16,12 @@
 		"web": "https://github.com/medikoo/clock/issues"
 	},
 	"dependencies": {
-		"es5-ext": "0.6.x",
+		"es5-ext": "0.7.x",
 		"event-emitter": "0.1.x"
 	},
-	"scripts": { "test": "./node_modules/tad/bin/tad lib" },
+	"scripts": {
+		"test": "node ./node_modules/tad/bin/tad lib"
+	},
 	"devDependencies": {
 		"tad": "0.1.x"
 	}
