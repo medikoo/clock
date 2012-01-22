@@ -13,7 +13,7 @@
 	},
 	"bugs": {
 		"mail": "medikoo+clock@medikoo.com",
-		"web": "https://github.com/medikoo/clock/issues"
+		"url": "https://github.com/medikoo/clock/issues"
 	},
 	"dependencies": {
 		"es5-ext": "0.7.x",
