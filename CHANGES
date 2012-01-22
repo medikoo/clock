@@ -1,3 +1,8 @@
+v0.1.2  --  2012.01.22
+* Current date object - always reflects current time (updated every second)
+* Update dependencies to newest versions
+* Travis CI integration
+
 v0.1.1  --  2011.08.08
 * Added TAD test suite to devDependencies, configured test commands.
   Tests can be run with 'make test' or 'npm test'
