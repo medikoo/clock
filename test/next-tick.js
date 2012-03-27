@@ -7,6 +7,7 @@ module.exports = function (t, a, d) {
 	});
 	a(x, 1, "Run in future");
 	setTimeout(function () {
-		a(x, 2, "Run on next event loop"); d();
+		a(x, 2, "Run on next event loop");
+		d();
 	}, 0);
 };

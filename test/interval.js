@@ -3,9 +3,8 @@
 module.exports = function (t, a, d) {
 	var o = t(100)
 	  , count = 0
-	  , listener = function () {
-			++count;
-		};
+	  , listener = function () { ++count; };
+
 	o.on('tick', listener);
 	setTimeout(function () {
 		a(count, 0, "Does not start automatically");
@@ -30,7 +29,8 @@ module.exports = function (t, a, d) {
 								o.on('tick', listener);
 								setTimeout(function () {
 									a(count, 1, "Starts automatically");
-									o.stop(); d();
+									o.stop();
+									d();
 								}, 80);
 							}, 150);
 						}, 100);
