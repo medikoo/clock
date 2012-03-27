@@ -1,0 +1,6 @@
+@root
+indent 2
+maxlen 80
+plusplus
+tabs
+predef clearInterval, setInterval, setTimeout, process
