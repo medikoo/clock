@@ -32,3 +32,7 @@ _Each extension is documented at begin of its source file._
 
 * `interval`
 * `nextTick`
+
+## Tests [![Build Status](https://secure.travis-ci.org/medikoo/clock.png?branch=master)](https://secure.travis-ci.org/medikoo/clock)
+
+	$ npm test
