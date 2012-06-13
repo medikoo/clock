@@ -1,29 +1,39 @@
 {
-	"name": "clock",
-	"version": "0.1.3",
-	"description": "Indicate and co-ordinate time events",
-	"keywords": ["time", "watch", "event", "events", "clock", "async",
-		"asynchronous"],
-	"author":
-	"Mariusz Nowak <medikoo+clock@medikoo.com> (http://www.medikoo.com/)",
-	"main": "lib/index",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/medikoo/clock.git"
-	},
-	"bugs": {
-		"mail": "medikoo+clock@medikoo.com",
-		"url": "https://github.com/medikoo/clock/issues"
-	},
-	"dependencies": {
-		"es5-ext": "git://github.com/medikoo/es5-ext.git",
-		"event-emitter": "0.1.x"
-	},
-	"scripts": {
-		"test": "node ./node_modules/tad/bin/tad lib",
-		"lint": "node ./node_modules/jslint/bin/jslint.js --color --git"
-	},
-	"devDependencies": {
-		"tad": "0.1.x"
-	}
+  "name": "clock",
+  "version": "0.1.3",
+  "description": "Indicate and co-ordinate time events",
+  "keywords": [
+    "time",
+    "watch",
+    "event",
+    "events",
+    "clock",
+    "async",
+    "asynchronous"
+  ],
+  "author": "Mariusz Nowak <medikoo+clock@medikoo.com> (http://www.medikoo.com/)",
+  "main": "lib/index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/clock.git"
+  },
+  "bugs": {
+    "email": "medikoo+clock@medikoo.com",
+    "url": "https://github.com/medikoo/clock/issues"
+  },
+  "dependencies": {
+    "es5-ext": "git://github.com/medikoo/es5-ext.git",
+    "event-emitter": "0.1.x"
+  },
+  "scripts": {
+    "test": "node ./node_modules/tad/bin/tad lib",
+    "lint": "node ./node_modules/jslint/bin/jslint.js --color --git"
+  },
+  "devDependencies": {
+    "tad": "0.1.x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
