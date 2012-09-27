@@ -1,3 +1,7 @@
+v0.1.5  --  2012.09.27
+Maintanance (package is in deprecated state)
+* Updated dependencies to lastest versions
+
 v0.1.4  --  2012.06.13
 * Update up to v0.8 branch of es5-ext
 * package.json now in npm friendly format
