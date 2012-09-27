@@ -1,5 +1,7 @@
 # Clock - Indicate and co-ordinate JavaScript time events
 
+_Idea of this package is deprecated. It's best to not rely on it, development is closed._
+
 Simple functions that helps to deal with time events.  
 Can be used in Node.js and browser environments
 
