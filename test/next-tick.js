@@ -9,5 +9,5 @@ module.exports = function (t, a, d) {
 	setTimeout(function () {
 		a(x, 2, "Run on next event loop");
 		d();
-	}, 0);
+	}, 1);
 };
