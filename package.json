@@ -31,7 +31,7 @@
   "devDependencies": {
     "tad": "0.1.x"
   },
-  "optionalDependencies": {},
+  "licence": "MIT",
   "engines": {
     "node": ">=0.4"
   }
