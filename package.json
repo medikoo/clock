@@ -2,6 +2,7 @@
   "name": "clock",
   "version": "0.1.5",
   "description": "Indicate and co-ordinate time events",
+  "author": "Mariusz Nowak <medikoo+clock@medikoo.com> (http://www.medikoo.com/)",
   "keywords": [
     "time",
     "watch",
@@ -11,7 +12,6 @@
     "async",
     "asynchronous"
   ],
-  "author": "Mariusz Nowak <medikoo+clock@medikoo.com> (http://www.medikoo.com/)",
   "main": "lib/index",
   "repository": {
     "type": "git",
@@ -23,13 +23,13 @@
   },
   "dependencies": {
     "es5-ext": "git://github.com/medikoo/es5-ext.git",
-    "event-emitter": "0.2.x"
+    "event-emitter": "~0.3.1"
   },
   "scripts": {
     "test": "node ./node_modules/tad/bin/tad lib"
   },
   "devDependencies": {
-    "tad": "0.1.x"
+    "tad": "~0.1.21"
   },
   "licence": "MIT",
   "engines": {
