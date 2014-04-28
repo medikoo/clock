@@ -1,3 +1,8 @@
+v0.1.6  --  2014.04.28 [Deprecated]
+* Convert documentation to show deprecated info
+* Update to use latest versions of dependencies
+* Remove Makefile (it's environment agnostic package)
+
 v0.1.5  --  2012.09.27
 Maintanance (package is in deprecated state)
 * Updated dependencies to lastest versions
