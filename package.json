@@ -27,5 +27,5 @@
   "scripts": {
     "test": "node ./node_modules/tad/bin/tad lib"
   },
-  "licence": "MIT"
+  "license": "MIT"
 }
